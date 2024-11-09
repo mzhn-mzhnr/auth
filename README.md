@@ -12,13 +12,15 @@
 Стек:
 
 - Go 1.22
-- pgx
-- go-redis
+- [pgx](https://github.com/jackc/pgx) (драйвер для работы с PostgreSQL)
+- [wire](https://github.com/google/wire) (compile-time DI-контейнер)
+- [go-redis](https://github.com/redis/go-redis) (драйвер для работы с Redis)
 - JWT
 
 ## Конфигурация
 
 Приложение настраивается при помощи переменных среды (Environment variables)
+
 Пример конфигурации находиться в `example.env`
 Выполните эту команду, чтобы скопировать пример
 
